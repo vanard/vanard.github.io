@@ -48,6 +48,14 @@ $(window).scroll(function(){
 		//$('.portfolio .thumbnail').addClass('appear');
 	}
 
+	//project
+	if (wScroll > $('.project').offset().top-250) {
+		$('.project .thumbnail').each(function(i){
+			setTimeout(function(){
+				$('.project .thumbnail').eq(i).addClass('appear')
+			}, 250*(i+1));
+		});
+	}
 
 });
 

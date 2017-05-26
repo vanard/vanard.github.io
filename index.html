@@ -7,8 +7,12 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Welcome</title>
 
+    <script src="js/respond.min.js"></script>
+    <script src="js/html5shiv.min.js"></script>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/reset.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="img/LOGO - V Flat.png">
 
@@ -79,15 +83,13 @@
     		<div class="row">
     			<div class="col-sm-5 col-sm-offset-1">
     				<p class="pLeft text-justify">Vian Rasyid Diyatma<br>
-					is a student in Telkom University since 2015, will soon become the master!.  He has been a web-designer, PHP ,Ruby, and Android Developer...before he fell in love with Java. He is also an amateur Photoshop Designer, technology enthusiast, Gamer, and a Beatboxer.  You can find him on <a href="https://www.facebook.com/vian.diyatma">Facebook</a>.
+					is a student in Telkom University since 2015, will soon become the master!.  He has been a web-designer, PHP ,Ruby, and Android Developer ...before he fell in love with Java. He is also an amateur Photoshop Designer, technology enthusiast, Gamer, and a Beatboxer.  You can find him on <a href="https://www.facebook.com/vian.diyatma">Facebook</a>.
     				</p>
     			</div>
-    			<div class="col-sm-5">
-    				<p class="pRight text-justify">Student College, Designer with Photoshop, Video Editing with Adobe Premiere, Game Development with Unity and Greenfoot, Beatboxer, Player DotA.<br>
-    				Steam : <a href="https://steamcommunity.com/id/viansalty" target="_blank">Vanard</a>
-    				<br>
-    				Beatbox Skill : Intermediate<br>
-    				DotA 2 Solo MMR : 3.4K</p>
+    			<div class="col-sm-5 img-box">
+                    <a href="img/My Software Skills.png" class="thumbnail" data-lightbox="skills">
+                        <img src="img/My Software Skills.png" alt="">
+                    </a>
     			</div>
     		</div>
     	</div>
@@ -105,39 +107,51 @@
     		</div>
 
     		<div class="row">
-    			<div class="col-sm-4">
-    				<a href="" class="thumbnail">
-    					<img src="img/portfolio/vanardBroke.jpg" alt="">
+    			<div class="col-sm-4 img-box">
+    				<a href="img/portfolio/full/vanardBroke.jpg" class="thumbnail" data-lightbox="portfolio">
+    					<img src="img/portfolio/thumbnail/vanardBroke.jpg" alt="" class="img-responsive">
     				</a>
     			</div>
-    			<div class="col-sm-4">
-    				<a href="" class="thumbnail">
-    					<img src="img/portfolio/SISFO39.jpg" alt="">
+    			<div class="col-sm-4 img-box">
+    				<a href="img/portfolio/full/SISFO39.png" class="thumbnail" data-lightbox="portfolio">
+    					<img src="img/portfolio/thumbnail/SISFO39.png" alt="">
     				</a>
     			</div>
-    			<div class="col-sm-4">
-    				<a href="" class="thumbnail">
-    					<img src="img/portfolio/CV Kreatif.jpg" alt="">
+    			<div class="col-sm-4 img-box">
+    				<a href="img/portfolio/full/CV Kreatif.jpg" class="thumbnail" data-lightbox="portfolio">
+    					<img src="img/portfolio/thumbnail/CV Kreatif.jpg" alt="">
     				</a>
     			</div>
     		</div>
     		<div class="row">
-    			<div class="col-sm-4">
-    				<a href="" class="thumbnail">
-    					<img src="img/portfolio/ADOB Logo.png" alt="">
+    			<div class="col-sm-4 img-box">
+    				<a href="img/portfolio/full/ADOB Logo.png" class="thumbnail" data-lightbox="portfolio">
+    					<img src="img/portfolio/thumbnail/ADOB Logo.png" alt="">
     				</a>
     			</div>
-    			<div class="col-sm-4">
-    				<a href="" class="thumbnail">
-    					<img src="img/portfolio/TelBoxLogo.jpg" alt="">
+    			<div class="col-sm-4 img-box">
+    				<a href="img/portfolio/full/TelBoxLogo.jpg" class="thumbnail" data-lightbox="portfolio">
+    					<img src="img/portfolio/thumbnail/TelBoxLogo.jpg" alt="">
     				</a>
     			</div>
-    			<div class="col-sm-4">
-    				<a href="" class="thumbnail">
-    					<img src="img/portfolio/sketsa2015photocontest.jpg" alt="">
+    			<div class="col-sm-4 img-box">
+    				<a href="img/portfolio/full/sketsa2015photocontest.jpg" class="thumbnail" data-lightbox="portfolio">
+    					<img src="img/portfolio/thumbnail/sketsa2015photocontest.jpg" alt="">
     				</a>
     			</div>
     		</div>
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-1 img-box">
+                    <a href="img/portfolio/full/LOGO Flat - V.png" class="thumbnail" data-lightbox="portfolio">
+                        <img src="img/portfolio/thumbnail/LOGO Flat - V.png" alt="Logo V Flat">
+                    </a>
+                </div>
+                <div class="col-sm-4 img-box">
+                    <a href="img/portfolio/full/LOGO Neon - V.png" class="thumbnail" data-lightbox="portfolio">
+                        <img src="img/portfolio/thumbnail/LOGO Neon - V.png" alt="Logo V Neon">
+                    </a>
+                </div>
+            </div>
     	</div>
     </section>
     <!-- end portfolio -->
@@ -152,13 +166,13 @@
     			</div>
     		</div>
     		<div class="row">
-    			<div class="col-sm-4 col-sm-offset-2">
-    				<a href="" class="thumbnail">
+    			<div class="col-sm-4 col-sm-offset-2 img-box">
+    				<a href="img/project_android/pensiunapp_splashscreen.png" class="thumbnail" data-lightbox="portfolio">
     					<img src="img/project_android/pensiunapp_splashscreen.png" alt="">
     				</a>
     			</div>
-    			<div class="col-sm-4">
-    				<a href="" class="thumbnail"><img src="img/project_android/pensiunapp_homescreen.png" alt=""></a>
+    			<div class="col-sm-4 img-box">
+    				<a href="img/project_android/pensiunapp_homescreen.png" class="thumbnail" data-lightbox="portfolio"><img src="img/project_android/pensiunapp_homescreen.png" alt=""></a>
     			</div>
     		</div>
     		<div class="row">
@@ -238,6 +252,7 @@
     </footer>
     <!-- end footer -->
 
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/jquery.easing.1.3.js"></script>

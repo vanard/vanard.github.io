@@ -39,7 +39,7 @@ $(window).scroll(function(){
 	});
 
 	//portfolio
-	if (wScroll > $('.portfolio').offset().top-350) {
+	if (wScroll > $('.portfolio').offset().top-450) {
 		$('.portfolio .thumbnail').each(function(i){
 			setTimeout(function(){
 				$('.portfolio .thumbnail').eq(i).addClass('appear')
@@ -49,7 +49,7 @@ $(window).scroll(function(){
 	}
 
 	//project
-	if (wScroll > $('.project').offset().top-350) {
+	if (wScroll > $('.project').offset().top-450) {
 		$('.project .thumbnail').each(function(i){
 			setTimeout(function(){
 				$('.project .thumbnail').eq(i).addClass('appear')

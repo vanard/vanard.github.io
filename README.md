@@ -4,6 +4,6 @@
 ### Used Tags & Syntaxes
 **This** section contain explanation about what tags and syntaxes we are using to build this website.
 ### About Me
-Name: Vian Rasyid D.
-Nickname: Vian
-Live: Jakarta
+Name: Vian Rasyid D. <br>
+Nickname: Vian <br>
+Live: Jakarta <br>

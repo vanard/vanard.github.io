@@ -1,4 +1,8 @@
 # Welcome to Vanard
+
+### Future Plans
+**This** website have several plan that will be excute as soon as possible.
+
 ### About This Site
 **This** website contains nothing, the purpose creating this website is to learn how to use Markdown, HTML, and CSS in RL.
 ### Used Tags & Syntaxes
